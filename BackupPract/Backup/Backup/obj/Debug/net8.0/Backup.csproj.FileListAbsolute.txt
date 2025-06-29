@@ -1,0 +1,14 @@
+D:\Уник\3 курс\BackupPract\Backup\Backup\bin\Debug\net8.0\Backup.exe
+D:\Уник\3 курс\BackupPract\Backup\Backup\bin\Debug\net8.0\Backup.deps.json
+D:\Уник\3 курс\BackupPract\Backup\Backup\bin\Debug\net8.0\Backup.runtimeconfig.json
+D:\Уник\3 курс\BackupPract\Backup\Backup\bin\Debug\net8.0\Backup.dll
+D:\Уник\3 курс\BackupPract\Backup\Backup\bin\Debug\net8.0\Backup.pdb
+D:\Уник\3 курс\BackupPract\Backup\Backup\obj\Debug\net8.0\Backup.GeneratedMSBuildEditorConfig.editorconfig
+D:\Уник\3 курс\BackupPract\Backup\Backup\obj\Debug\net8.0\Backup.AssemblyInfoInputs.cache
+D:\Уник\3 курс\BackupPract\Backup\Backup\obj\Debug\net8.0\Backup.AssemblyInfo.cs
+D:\Уник\3 курс\BackupPract\Backup\Backup\obj\Debug\net8.0\Backup.csproj.CoreCompileInputs.cache
+D:\Уник\3 курс\BackupPract\Backup\Backup\obj\Debug\net8.0\Backup.dll
+D:\Уник\3 курс\BackupPract\Backup\Backup\obj\Debug\net8.0\refint\Backup.dll
+D:\Уник\3 курс\BackupPract\Backup\Backup\obj\Debug\net8.0\Backup.pdb
+D:\Уник\3 курс\BackupPract\Backup\Backup\obj\Debug\net8.0\Backup.genruntimeconfig.cache
+D:\Уник\3 курс\BackupPract\Backup\Backup\obj\Debug\net8.0\ref\Backup.dll
