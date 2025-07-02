@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|d:\\\u0443\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\backuppract\\backup\\backup\\settingsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|solutionrelative:backup\\settingsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|d:\\\u0443\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\backuppract\\backup\\backup\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|solutionrelative:backup\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|d:\\\u0443\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\backuppract\\backup\\backup\\settingsloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|solutionrelative:backup\\settingsloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|d:\\\u0443\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\backuppract\\backup\\backup\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|solutionrelative:backup\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|d:\\\u0443\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\backuppract\\backup\\backup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|solutionrelative:backup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|d:\\\u0443\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\backuppract\\backup\\backup\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|solutionrelative:backup\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|d:\\\u0443\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\backuppract\\backup\\backup\\settingsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE40062F-836B-49BC-84E4-029BAEE589E8}|Backup\\Backup.csproj|solutionrelative:backup\\settingsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "settings.json",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\Backup\\settings.json",
               "RelativeDocumentMoniker": "Backup\\settings.json",
               "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\Backup\\settings.json",
               "RelativeToolTip": "Backup\\settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-27T13:41:55.523Z",
+              "WhenOpened": "2025-07-02T18:42:41.463Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logs.cs",
+              "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\Backup\\Logs.cs",
+              "RelativeDocumentMoniker": "Backup\\Logs.cs",
+              "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\Backup\\Logs.cs",
+              "RelativeToolTip": "Backup\\Logs.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T15:39:11.539Z"
             },
             {
               "$type": "Document",
@@ -49,36 +65,33 @@
               "RelativeDocumentMoniker": "Backup\\SettingsLoader.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\Backup\\SettingsLoader.cs",
               "RelativeToolTip": "Backup\\SettingsLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T13:03:26.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T13:03:26.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SettingsClass.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\Backup\\SettingsClass.cs",
               "RelativeDocumentMoniker": "Backup\\SettingsClass.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\Backup\\SettingsClass.cs",
               "RelativeToolTip": "Backup\\SettingsClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T11:18:17.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T11:18:17.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\Backup\\Program.cs",
               "RelativeDocumentMoniker": "Backup\\Program.cs",
               "ToolTip": "D:\\\u0423\u043D\u0438\u043A\\3 \u043A\u0443\u0440\u0441\\BackupPract\\Backup\\Backup\\Program.cs",
               "RelativeToolTip": "Backup\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T10:49:19.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T10:49:19.365Z"
             }
           ]
         }

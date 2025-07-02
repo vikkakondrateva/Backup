@@ -11,5 +11,6 @@ namespace Backup
     { 
         public string Source{ get; set; }      //откуда
         public string Target{ get; set; }      //куда
+        public string Level { get; set; } = "Info";        //логи
     }
 }

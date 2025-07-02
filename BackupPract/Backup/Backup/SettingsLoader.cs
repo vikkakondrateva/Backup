@@ -15,8 +15,9 @@ namespace Backup
             {
                 var defaults = new SettingsClass
                 {
-                    Source = "C:\\DefaultSource",
-                    Target = "D:\\DefaultBackup"
+                    Source = "D:/Уник/3 курс/SourceFolder",
+                    Target = "D:/Уник/3 курс/DefaultBackup",
+                    Level = "Info"
                 };
                 File.WriteAllText(filePath, JsonSerializer.Serialize(defaults));
                 return defaults;

@@ -17,19 +17,26 @@ namespace Backup
                 string backupFolder = Path.Combine(settings.Target, $"backup_{timestamp}");
                 Console.WriteLine($"backupFolder: {backupFolder}\n");
 
+
+
                 //создпние папки
                 try
                 {
                     Directory.CreateDirectory(backupFolder);
+                    Logs.Initialize(backupFolder);
+                    Logs.Log($"Создана папка для бэкапа: {backupFolder}", "Info", settings.Level);
+
+                    Logs.Log("Запуск программы", "Info", settings.Level);
+                    Logs.Log($"Настройки: Source={settings.Source}, Target={settings.Target}", "Debug", settings.Level);
                 }
                 catch (UnauthorizedAccessException ex)
                 {
-                    Console.WriteLine($"No access to create backup directory: {ex.Message}");
+                    Logs.Log($"Ошибка доступа при создании папки: {ex.Message}", "Error", settings.Level);
                     return;
                 }
                 catch (Exception ex) when (ex is IOException || ex is ArgumentException)
                 {
-                    Console.WriteLine($"Failed to create backup directory: {ex.Message}");
+                    Logs.Log($"Ошибка при создании папки: {ex.Message}", "Error", settings.Level);
                     return;
                 }
 
@@ -51,20 +58,21 @@ namespace Backup
                             {
                                 Directory.CreateDirectory(Path.GetDirectoryName(newPath));
                                 File.Copy(file, newPath, overwrite: true);
-                                Console.WriteLine($"Copied: {file} -> {newPath}");
+                                Logs.Log($"Скопировано: {file} -> {newPath}", "Debug", settings.Level);
+                                //Console.WriteLine($"Copied: {file} -> {newPath}");
                             }
                             catch (UnauthorizedAccessException ex)
                             {
-                                Console.WriteLine($"No access to create/copy file: {file} ({ex.Message})");
+                                Logs.Log($"Нет доступа: {file} ({ex.Message})", "Error", settings.Level);
                             }
                             catch (IOException ex)
                             {
-                                Console.WriteLine($"IO error with file: {file} ({ex.Message})");
+                                Logs.Log($"Ошибка ввода-вывода: {file} ({ex.Message})", "Error", settings.Level);
                             }
                         }
                         catch (ArgumentException ex)
                         {
-                            Console.WriteLine($"Invalid name of file: {file} ({ex.Message})\n");
+                            Logs.Log($"Неверный путь: {file} ({ex.Message})", "Error", settings.Level);
 
                         }
 
@@ -75,18 +83,18 @@ namespace Backup
                 }
                 catch (UnauthorizedAccessException ex)
                 {
-                    Console.WriteLine($"No access to directory: {settings.Source} ({ex.Message})");
+                    Logs.Log($"Доступ к каталогу запрещен: {ex.Message}", "Error", settings.Level);
                 }
                 catch (DirectoryNotFoundException ex)
                 {
-                    Console.WriteLine($"Directory not found: {settings.Source} ({ex.Message})");
+                    Logs.Log($"Каталог не найден: {settings.Source}: {ex.Message}", "Error", settings.Level);
                 }
 
-
+                Logs.Log("Резервное копирование завершено", "Info", settings.Level);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Fatal error: {ex.Message}");
+                Logs.Log($"Критическая ошибка: {ex.Message}", "Error", "Error");
             }
         }
             

@@ -1,0 +1,7 @@
+[2025-07-02 21:30:17] [Info] Создана папка для бэкапа: D:/Уник/3 курс/TargetFolder\backup_2025-07-02_21-30-17
+[2025-07-02 21:30:17] [Info] Запуск программы
+[2025-07-02 21:30:17] [Debug] Настройки: Source=D:/Уник/3 курс/SourceFolder, Target=D:/Уник/3 курс/TargetFolder
+[2025-07-02 21:30:17] [Debug] Copied: D:/Уник/3 курс/SourceFolder\file1.docx -> D:/Уник/3 курс/TargetFolder\backup_2025-07-02_21-30-17\file1.docx
+[2025-07-02 21:30:17] [Debug] Copied: D:/Уник/3 курс/SourceFolder\file2.txt -> D:/Уник/3 курс/TargetFolder\backup_2025-07-02_21-30-17\file2.txt
+[2025-07-02 21:30:17] [Debug] Copied: D:/Уник/3 курс/SourceFolder\file3.xlsx -> D:/Уник/3 курс/TargetFolder\backup_2025-07-02_21-30-17\file3.xlsx
+[2025-07-02 21:30:17] [Info] Резервное копирование завершено
